@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+
+# Python cache & build
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Testing cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment variables & local secrets
+.env
+.env.local
+
+# Vite / Frontend build output
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.*
+!.env.example
